@@ -32,4 +32,13 @@ public class Usuarios {
         this.senha = senha;
         this.typeUser = typeUser;
     }
+
+    public void updateUser(UsuariosDTO data) {
+        if(data.email() != null){
+            this.email = data.email();
+        }
+        if(data.senha() != null){
+            this.senha = data.senha();
+        }
+    }
 }
