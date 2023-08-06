@@ -30,6 +30,12 @@ public class TypeUserController {
         return ResponseEntity.ok(alltypesUser);
     }
 
+    @GetMapping("/{id_typeuser}")
+    public ResponseEntity getOneTypeUser(@PathVariable Integer id_typeuser){
+        var oneTypeUser = repositoryTypeUser.findUmTypeUser(id_typeuser);
+        return ResponseEntity.ok(oneTypeUser);
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity postTypeUser(@RequestBody TypeUserDTO data, UriComponentsBuilder uriComponentsBuilder){
