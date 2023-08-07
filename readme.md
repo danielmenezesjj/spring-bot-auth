@@ -29,11 +29,11 @@
 
 
 * ### Usuarios
-  | HTTP Method  | Endpoint                | Description        |
-    |--------------|-------------------------|--------------------|
-  | GET          | /usuarios               | Get all usuarios   |
-  | POST         | /usuarios               | Insert new usuario |
-  | GET          | /usuarios/{id_usuarios} | Get usuario by ID  |
-  | PUT          | /usuarios/{id_usuarios} | Update usuario by ID|
-  | DELETE       | /usuarios/{id_usuarios} | Delete usuario by ID|
+  | HTTP Method  | Endpoint               | Description        |
+    |--------------|------------------------|--------------------|
+  | GET          | /usuarios              | Get all usuarios   |
+  | POST         | /usuarios              | Insert new usuario |
+  | GET          | /usuarios/{id_usuario} | Get usuario by ID  |
+  | PUT          | /usuarios/{id_usuario} | Update usuario by ID|
+  | DELETE       | /usuarios/{id_usuario} | Delete usuario by ID|
 
