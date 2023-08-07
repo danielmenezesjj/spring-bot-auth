@@ -4,7 +4,7 @@
 ## :desktop_computer: Start
 
 
-* ### Type User :
+* ### Type User 
 
   | HTTP Method  | Endpoint                | Description          |
   |--------------|-------------------------|----------------------|
