@@ -1,6 +1,6 @@
 # Spring Boot - User registration and authentication
 
-- API base with profile registration and permissions management, user registration and authentication.
+- API base with type user registration and permissions management, user registration and authentication.
 
 
 
