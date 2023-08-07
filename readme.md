@@ -37,3 +37,6 @@
   | PUT          | /usuarios/{id_usuario} | Update usuario by ID|
   | DELETE       | /usuarios/{id_usuario} | Delete usuario by ID|
 
+## :heavy_check_mark: License
+
+This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
