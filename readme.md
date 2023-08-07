@@ -28,7 +28,7 @@
   | DELETE       | /typeuser/{id_typeuser} | Delete typeuser by ID|
 
 
-  * ### Usuarios
+* ### Usuarios
   | HTTP Method  | Endpoint                | Description        |
     |--------------|-------------------------|--------------------|
   | GET          | /usuarios               | Get all usuarios   |
