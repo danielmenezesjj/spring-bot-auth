@@ -26,6 +26,7 @@ public class TypeUserController {
 
     @GetMapping
     public ResponseEntity getTypeUser(){
+        System.out.println("Requisição get type user");
         var alltypesUser = repositoryTypeUser.findAll();
         return ResponseEntity.ok(alltypesUser);
     }
@@ -33,6 +34,7 @@ public class TypeUserController {
     @GetMapping("/{id_typeuser}")
     public ResponseEntity getOneTypeUser(@PathVariable Integer id_typeuser){
         var oneTypeUser = repositoryTypeUser.findUmTypeUser(id_typeuser);
+
         return ResponseEntity.ok(oneTypeUser);
     }
 

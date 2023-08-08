@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface RepositoryTypeUser extends JpaRepository<TypeUser, Integer> {
 
-    @Query("SELECT t FROM typeUser t WHERE t.id_typeuser = :id_typeuser")
+    @Query("SELECT t FROM typeuser t WHERE t.id_typeuser = :id_typeuser")
     TypeUser findUmTypeUser(Integer id_typeuser);
 }

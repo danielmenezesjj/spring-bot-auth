@@ -5,11 +5,10 @@ import com.authapi.auth.Dto.TypeUserDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Entity(name = "typeUser")
+@Entity(name = "typeuser")
 @Table(name = "typeuser")
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
 @Getter
 @Setter
 public class TypeUser {

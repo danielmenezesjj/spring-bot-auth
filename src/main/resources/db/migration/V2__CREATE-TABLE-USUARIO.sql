@@ -3,5 +3,5 @@ CREATE TABLE usuarios(
     email varchar(255) not null,
     senha varchar(255) not null,
     idTypeuser int not null,
-    FOREIGN KEY (idTypeuser) references typeUser(id_typeuser)
+    FOREIGN KEY (idTypeuser) references typeuser(id_typeuser)
 );
