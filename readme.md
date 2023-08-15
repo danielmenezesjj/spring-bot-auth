@@ -14,7 +14,9 @@
 
 
 ## :desktop_computer: Start
-
+```
+docker-compose up
+```
 
 ## :notebook: Features
 * ### Type User 
