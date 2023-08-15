@@ -39,6 +39,14 @@ docker-compose up
   | PUT          | /usuarios/{id_usuario} | Update usuario by ID|
   | DELETE       | /usuarios/{id_usuario} | Delete usuario by ID|
 
+* ### Auth
+  | HTTP Method  | Endpoint               | Description        |
+    |--------------|------------------------|--------------------|
+
+  | POST         | /auth                 |  Authentic |
+
+  
+
 ## :heavy_check_mark: License
 
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
